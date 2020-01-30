@@ -1,3 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.rexraphael.flutterunitywidget">
+  package="com.rexraphael.flutterunitywidget"
+  android:process=":Unity">
 </manifest>
