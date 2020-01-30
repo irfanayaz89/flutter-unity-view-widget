@@ -89,8 +89,8 @@ public class FlutterUnityView implements PlatformView, MethodChannel.MethodCallH
     @Override
     public void dispose() {
         if (UnityUtils.isUnityReady()) {
-            // UnityUtils.getPlayer().quit();
-            UnityUtils.getPlayer().unload();
+            UnityUtils.getPlayer().quit();
+            // UnityUtils.getPlayer().unload();
         }
     }
 
